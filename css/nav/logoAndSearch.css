@@ -1,0 +1,43 @@
+.second-line{
+    margin-top: 10px;
+    justify-content: space-around;
+    height: 60px;
+}
+.logo, .second-line{
+    display: flex;
+}
+.name-logo{
+    font-family: Prata;
+    font-size: 35px;
+    line-height: 67px;
+}
+/* pointers */
+#search-button, .logo, .shopping-cart{
+    cursor: pointer;
+}
+
+#search-camp{
+    font-size: 1em;
+    padding: 10px;
+    background-color: #fff;
+    width: 700px;
+    border: 1px solid #7f5539;
+}
+.search{
+    margin-top: 11px;
+    display: flex;
+}
+#search-button{
+    height: 49px;
+    width: 49px;
+    text-align: center;
+    background-color: #ddb892;
+    padding: 12px 10px 10px 10px;
+    transition: .5s;
+}
+#search-button:hover{
+    background-color: #c29f7f;
+}
+.shopping-cart{
+    margin-top: 11px;
+}
