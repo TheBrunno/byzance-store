@@ -1,0 +1,18 @@
+.categories{
+    display: flex;
+    justify-content: space-around;
+}
+.item-categories{
+    text-align: center;
+    cursor: pointer;
+}
+.item-categories > span{
+    font-size: 25px;
+}
+.item-categories figure > svg{
+    filter: drop-shadow(2px 4px 8px #3636364f);
+    transition: .5s;
+}
+.item-categories:hover figure > svg{
+    filter: drop-shadow(4px 6px 10px #3636368e);
+}
