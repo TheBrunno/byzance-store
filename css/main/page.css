@@ -1,7 +1,12 @@
-.title{
-    font-family: Prata;
-    padding: 160px 0 0 0;
+.title, .first-title{
+    font-family: Prata, serif;
     font-weight: 400;
     font-size: 60px;
     text-align: center;
+}
+.first-title{
+    padding: 130px 0 0 0;
+}
+.title{
+    margin: 30px 0;
 }
