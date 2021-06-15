@@ -1,0 +1,42 @@
+.best-seller > h2{
+    border-bottom: 1px solid #ebd9cc;
+}
+.best-seller{
+    margin-bottom: 40px;
+    height: 500px;
+}
+.best-seller-container{
+    padding-top: 10px;
+    border-top: 1px solid #ebd9cc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.best-seller-item{
+    width: 270px;
+    text-align: center;
+    margin: 0 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.best-seller-item:hover{
+    border: 1px solid #ebd9cc;
+}
+.best-seller-item > figure{
+    text-align: center;
+}
+.old-price{
+    display: block;
+    margin: 7px 0;
+}
+.price{
+    display: block;
+    color: #578df1;
+    font-weight: 700;
+    font-size: 25px;
+}
+.division{
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+}
