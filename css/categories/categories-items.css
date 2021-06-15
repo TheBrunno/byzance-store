@@ -1,4 +1,4 @@
-.categories{
+.categories-container{
     display: flex;
     justify-content: space-around;
 }
@@ -8,8 +8,6 @@
 }
 .item-categories > span{
     font-size: 25px;
-}
-.item-categories span{
     transition: .5s;
 }
 .item-categories:hover span{
