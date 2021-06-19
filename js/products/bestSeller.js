@@ -4,10 +4,13 @@ function choiceBestSellerItems(){
     let bigs = new Array()
     for(product in allProducts){
         if(bigs.length >= 4){
-            if(allProducts[product][5] > bigs[bigs.length-1]){
+            if(Number(allProducts[product][5]) > Number(bigs[bigs.length-1])){
                 bigs.pop()
                 bigs.push(allProducts[product][5])
-                bigs.sort().reverse()
+                bigs.sort(function(a, b){
+                    return a - b
+                }).reverse()
+                console.log(bigs)
             }
         }else{
             bigs.push(allProducts[product][5])
