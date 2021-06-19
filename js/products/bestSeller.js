@@ -11,7 +11,9 @@ function choiceBestSellerItems(){
             }
         }else{
             bigs.push(allProducts[product][5])
-            bigs.sort().reverse()
+            bigs.sort(function(a, b){
+                return a - b
+            }).reverse()
         }
     }
     for(number in bigs){
