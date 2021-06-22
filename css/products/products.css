@@ -3,26 +3,26 @@
 }
 .best-seller{
     margin-bottom: 40px;
-    height: 500px;
 }
-.best-seller-container{
+.best-seller-container, .container-products{
+    height: 400px;
     padding-top: 10px;
     border-top: 1px solid #ebd9cc;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.best-seller-item{
+.best-seller-item, .ring-dating-item, .ring-engagement-item{
     width: 270px;
     text-align: center;
     margin: 0 20px;
     padding-bottom: 20px;
     cursor: pointer;
 }
-.best-seller-item:hover{
+.best-seller-item:hover, .ring-dating-item:hover, .ring-engagement-item:hover{
     border: 1px solid #ebd9cc;
 }
-.best-seller-item > figure{
+.best-seller-item, .ring-dating-item, .ring-engagement-item> figure{
     text-align: center;
 }
 .old-price{
