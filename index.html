@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/main/page.css">
     <link rel="stylesheet" href="css/categories/categories-items.css">
     <link rel="stylesheet" href="css/products/products.css">
+    <link rel="stylesheet" href="css/main/productsMain.css">
 </head>
 <body>
     <nav> <!--Navigation-->
@@ -65,7 +66,7 @@
             </div>
         </div>
     </nav>
-    <div class="images"> <!--Images begginer-->
+    <section class="images"> <!--Images beginner-->
         <h2 class="first title">Anéis</h2>
         <div class="images-container">
             <div class="vertical-image">
@@ -82,8 +83,8 @@
                 </figure>
             </div>
         </div>
-    </div>
-    <div class="categories"> <!--Categories-->
+    </section>
+    <section class="categories"> <!--Categories-->
         <h2 class="title seconds">Categorias</h2>
         <div class="categories-container">
             <div class="item-categories">
@@ -117,8 +118,8 @@
                 <span>Brincos</span>
             </div>
     </div>
-    </div>
-    <div class="best-seller"> <!--Best Sellers-->
+    </section>
+    <section class="best-seller"> <!--Best Sellers-->
         <h2 class="title seconds">Mais vendidos</h2>
         <div class="best-seller-container">
             <div class="best-seller-item">
@@ -150,7 +151,27 @@
                 <span class="division"></span>
             </div>
         </div>
-    </div>
+    </section>
+    <main> <!--Types of Ring-->
+        <section class="dating-ring"> <!--Dating Ring-->
+            <figure class="banner">
+                <img src="images/banners/banner-dating-ring.jpg" usemap="#button-in-image-dating-ring">
+                <map name="button-in-image-dating-ring">
+                    <area shape="poly" coords="574,67,572,70,572,90,574,93,577,95,677,95,680,92,681,89,681,69,679,67,676,65,577,65,574,67" href="#">
+                </map>
+            </figure>
+            <div class="dating-ring-container container-products"></div>
+        </section>
+        <section class="engagement-ring"><!--Engagement Ring-->
+            <figure class="banner">
+                <img src="images/banners/banner-engagement-ring.jpg" usemap="#button-in-image-engagement-ring">
+                <map name="#button-in-image-engagement-ring">
+                    <area shape="poly" coords="1037,62,1135,62,1139,64,1141,67,1141,88,1139,90,1136,92,1037,92,1034,90,1032,86,1032,66,1034,64,1037,62" href="#">
+                </map>
+            </figure>
+            <div class="engagement-ring-container container-products"></div>
+        </section>
+    </main>
     <footer>
         <a href='https://br.freepik.com/fotos/casamento'>Casamento foto criado por freepic.diller - br.freepik.com</a>
         <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
@@ -158,5 +179,6 @@
     </footer>
     <script src="js/products/products.js"></script>
     <script src="js/products/bestSeller.js"></script>
+    <script src="js/products/choiceProductsMain.js"></script>
 </body>
 </html>

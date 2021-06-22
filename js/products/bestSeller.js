@@ -1,28 +1,28 @@
 const bestSellerContainer = document.querySelector('.best-seller-container')
 
 function choiceBestSellerItems(){
-    let bigs = new Array()
+    let big = new Array()
     for(product in allProducts){
-        if(bigs.length >= 4){
-            if(Number(allProducts[product][5]) > Number(bigs[bigs.length-1])){
-                bigs.pop()
-                bigs.push(allProducts[product][5])
-                bigs.sort(function(a, b){
+        if(big.length >= 4){
+            if(Number(allProducts[product][5]) > Number(big[big.length-1])){
+                big.pop()
+                big.push(allProducts[product][5])
+                big.sort(function(a, b){
                     return a - b
                 }).reverse()
-                console.log(bigs)
+                console.log(big)
             }
         }else{
-            bigs.push(allProducts[product][5])
-            bigs.sort(function(a, b){
+            big.push(allProducts[product][5])
+            big.sort(function(a, b){
                 return a - b
             }).reverse()
         }
     }
-    for(number in bigs){
+    for(number in big){
         let equal = false
         for(product in allProducts){
-            if(allProducts[product][5] == bigs[number]){
+            if(allProducts[product][5] == big[number]){
                 for(ele in bestSellerItems){
                     if(bestSellerItems[ele][1] == allProducts[product][1]){
                         equal = false
