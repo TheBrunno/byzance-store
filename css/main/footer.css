@@ -1,0 +1,49 @@
+.email-offers{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #fbece8;
+    padding: 40px 0;
+}
+.description{
+    font-weight: 700;
+    font-size: 20px;
+    width: 300px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    color: #e0a99b;
+}
+.inputs, .form{
+    box-sizing: content-box;
+    display: flex;
+    width: 850px;
+}
+.form{
+    justify-content: space-around;
+    border: 1px solid #f6beb1;
+    padding: 15px;
+}
+.inputs > input, .form > a.button{
+    height: 30px;
+    display: block;
+}
+a.button{
+    width: 150px;
+    color: #fff;
+    background-color: #e8927c;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+.form .inputs > input{
+    width: 300px;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.form > input::placeholder{
+    opacity: .6;
+}
