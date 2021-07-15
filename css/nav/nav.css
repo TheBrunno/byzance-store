@@ -1,34 +1,34 @@
 body{
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .first-line{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 nav ul{
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 nav a{
-    text-decoration: none;
-    color: currentColor;
+  text-decoration: none;
+  color: currentColor;
 }
 nav ul li{
-    margin: 10px;
+  margin: 10px;
 }
 .bold{
-    font-weight: 700;
+  font-weight: 700;
 }
 nav{
-    background-image: linear-gradient(to bottom, #ebd9cc, #f3eae3);
-    padding-bottom: 10px;
-    position: fixed;
-    width: 100%;
+  background-image: linear-gradient(to bottom, #ebd9cc, #f3eae3);
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
 }
 #icons-facebook-instagram{
-    margin-left: -7px
+  margin-left: -7px;
 }
 #cadastro{
-    padding-right: 20px;
-    border-right: 1px #7f5539 solid;
+  padding-right: 20px;
+  border-right: 1px #7f5539 solid;
 }

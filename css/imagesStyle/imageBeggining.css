@@ -1,18 +1,18 @@
 .images-container{
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
 }
 .vertical-image img{
-    height: 403px;
+  height: 403px;
 }
 .horizontal-image{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .last-image{
-    margin-top: -4px;
+  margin-top: -4px;
 }
 .images-container img{
-    box-shadow: 0 0 3px 2px #00000042;
-    margin: 3px 3px 0 0;
+  box-shadow: 0 0 3px 2px #00000042;
+  margin: 3px 3px 0 0;
 }

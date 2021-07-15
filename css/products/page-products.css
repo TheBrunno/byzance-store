@@ -1,0 +1,144 @@
+body{
+  background-color: #fafafa;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline;
+  padding: 0 8px;
+}
+.informations{
+  width: 100%;
+  height: 530px;
+  text-align: center;
+  border:1px #ebd9cc solid;
+  border-left: none;
+}
+.top-informations{
+  padding: 150px 0 0 50px;
+  height: 185px;
+  display: flex;
+}
+.top-informations > .links{
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+.top-informations > .links li a, .back a{
+  color: var(--blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top-informations > .links li:last-child{
+  border-left: 1px rgba(87, 141, 241, 0.6) solid;
+}
+main{
+  padding: 10px;
+  box-shadow: 0 0 5px 1px rgba(40, 40, 40, 0.175);
+  margin:0 auto;
+  display: flex;
+  width: 90%;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.big-image img{
+  border: 1px #ebd9cc solid;
+  width: 530px;
+  height: 530px;
+}
+h1{
+  font-size: 37px;
+  font-weight: normal;
+}
+.price{
+  font-size: 30px;
+  display: block;
+}
+.old{
+  font-size: 20px;
+  color: #a4a4a4;
+}
+.name-product{
+  font-family: Prata;
+  padding: 30px;
+}
+.size-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px
+}
+.size{
+  cursor: pointer;
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 14px 0;
+  margin: 0 5px;
+  border: 1px #bfa08a solid;
+  transition: .2s;
+}
+.size:hover{
+  color:#fff;
+  font-weight: 900;
+  background-color: #bfa08a;
+}
+.measures > h2{
+  font-weight:normal;
+  margin: 20px;
+}
+.null-space{
+  height: 140px;
+}
+.price-container{
+  border: 1px #ebd9cc solid;
+  border-left:none;
+  border-right: none;
+  display: flex;
+}
+.old-price-and-current-price{
+  padding: 20px;
+  width: 300px;
+  border-right: 1px #ebd9cc solid;
+}
+.division-container{
+  margin: 0 auto;
+  padding: 35px 0;
+}
+.division{
+  font-size: 25px;
+}
+.buy{
+  margin: 30px 0;
+}
+.buy > input{
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 900;
+  color:#fff;
+  background-color: #24cb99;
+  border: none;
+  width: 210px;
+  height: 60px;
+  transition: .5s;
+}
+.buy > input:hover{
+  width: 250px;
+  filter: brightness(90%);
+}
+.more-buy{
+  display: flex;
+  justify-content: space-around;
+}
+.add-to-fav, .add-to-shopping-bag, .back{
+  display: flex;
+  cursor: pointer;
+}
+.add-to-fav span, .add-to-shopping-bag span{
+  margin: 0 5px;
+}
+.back img{
+  margin: -5px 0;
+}
