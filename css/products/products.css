@@ -1,42 +1,45 @@
 .best-seller > h2{
-    border-bottom: 1px solid #ebd9cc;
+  border-bottom: 1px solid #ebd9cc;
 }
 .best-seller{
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
-.best-seller-container, .container-products{
-    height: 400px;
-    padding-top: 10px;
-    border-top: 1px solid #ebd9cc;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.container-products{
+  height: 400px;
+  padding-top: 10px;
+  border-top: 1px solid #ebd9cc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.best-seller-item, .ring-dating-item, .ring-engagement-item{
-    width: 270px;
-    text-align: center;
-    margin: 0 20px;
-    padding-bottom: 20px;
-    cursor: pointer;
+.thisAProduct{
+  width: 270px;
+  text-align: center;
+  margin: 0 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
 }
-.best-seller-item:hover, .ring-dating-item:hover, .ring-engagement-item:hover{
-    border: 1px solid #ebd9cc;
+.thisAProduct:hover{
+  border: 1px solid #ebd9cc;
 }
-.best-seller-item, .ring-dating-item, .ring-engagement-item> figure{
-    text-align: center;
+.thisAProduct > figure{
+  text-align: center;
+}
+.id-hidden{
+  display: none;
 }
 .old-price{
-    display: block;
-    margin: 7px 0;
+  display: block;
+  margin: 7px 0;
 }
 .price{
-    display: block;
-    color: #578df1;
-    font-weight: 700;
-    font-size: 25px;
+  display: block;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 25px;
 }
 .division{
-    display: block;
-    text-align: right;
-    padding-right: 20px;
+  display: block;
+  text-align: right;
+  padding-right: 20px;
 }

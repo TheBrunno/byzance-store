@@ -1,15 +1,15 @@
 .categories-container{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .item-categories{
-    text-align: center;
-    cursor: pointer;
+  text-align: center;
+  cursor: pointer;
 }
 .item-categories > span{
-    font-size: 25px;
-    transition: .5s;
+  font-size: 25px;
+  transition: .5s;
 }
 .item-categories:hover span{
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
 }

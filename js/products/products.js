@@ -6,11 +6,13 @@ const allProducts = [
         ],
         "Anel Noivado Luminosità", // name
         "3029.90", // old price
-        "2726.91", // price 
+        "2726.91", // price
         "12", // division
         "365", // sells
         "ring", // categories
-        "ring-engagement" // type
+        "ring-engagement", // type
+        "1",
+        [10, 11, 12, 13, 14, 15, 16], // id
     ],
     [
         [
@@ -18,38 +20,44 @@ const allProducts = [
             "images/products/530x530/brinco-prata.jpg"
         ],
         "Brinco Prata Ponto de Luz",
-        "209.00", 
+        "209.00",
         "188.00",
         "10",
         "489",
         "earring",
-        "earring-silver"
+        "earring-silver",
+        "2",
+        "none",
     ],
     [
         [
-            "images/products/250x250/anel-golden line.png",
-            "images/products/530x530/anel-golden line.jpg"
+            "images/products/250x250/anel-golden-line.png",
+            "images/products/530x530/anel-golden-line.jpg",
         ],
-        "Anel Noivado Ouro 18K Golden Line",
+        "Anel Noivado Golden Line",
         "1429.00",
         "1286.00",
         "12",
         "567",
         "ring",
-        "ring-engagement"
+        "ring-engagement",
+        "3",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
             "images/products/250x250/corrente-ouro-singapura.png",
             "images/products/530x530/corrente-ouro-singapura.jpg"
         ],
-        "Corrente Ouro 18K Singapura",
+        "Corrente Singapura",
         "799.90",
         "639.92",
         "12",
         "567",
         "necklace",
-        "necklace-gold"
+        "necklace-gold",
+        "4",
+        "none",
     ],
     [
         [
@@ -60,9 +68,11 @@ const allProducts = [
         "259.90",
         "220.92",
         "12",
-        "0",
+        "890",
         "ring",
-        "ring-dating"
+        "ring-dating",
+        "5",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
@@ -75,7 +85,9 @@ const allProducts = [
         "12",
         "0",
         "ring",
-        "ring-dating"
+        "ring-dating",
+        "6",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
@@ -88,7 +100,9 @@ const allProducts = [
         "12",
         "0",
         "ring",
-        "ring-dating"
+        "ring-dating",
+        "7",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
@@ -101,20 +115,24 @@ const allProducts = [
         "12",
         "0",
         "ring",
-        "ring-dating"
+        "ring-dating",
+        "8",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
             "images/products/250x250/anel-noivado-fascino-ouro.png",
             "images/products/530x530/anel-noivado-fascino-ouro.jpg"
         ],
-        "Anel Noivado Fascino Ouro 18K",
+        "Anel Noivado Fascino",
         "1209.90",
         "1088.91",
         "12",
         "0",
         "ring",
-        "ring-engagement"
+        "ring-engagement",
+        "9",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
@@ -127,20 +145,25 @@ const allProducts = [
         "12",
         "0",
         "ring",
-        "ring-dating"
+        "ring-dating",
+        "10",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
     [
         [
             "images/products/250x250/anel-noivado-prezioso-ouro.png",
             "images/products/530x530/anel-noivado-prezioso-ouro.jpg"
         ],
-        "Anel Noivado Prezioso Ouro 18K",
+        "Anel Noivado Prezioso",
         "3579.90",
         "3221.91",
         "12",
         "0",
         "ring",
-        "ring-engagement"
+        "ring-engagement",
+        "11",
+        [10, 11, 12, 13, 14, 15, 16],
     ],
 ]
 const bestSellerItems = []
+let selectionItem = []

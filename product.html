@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nav/nav.css">
+    <link rel="stylesheet" href="css/nav/logoAndSearch.css">
+    <link rel="stylesheet" href="css/main/page.css">
+    <link rel="stylesheet" href="css/main/footer.css">
+    <link rel="stylesheet" href="css/products/page-products.css">
+  </head>
+  <body>
+    <nav> <!--Navigation-->
+      <div class="first-line">
+        <div class="left-nav">
+          <ul>
+            <li><a href="#">Central do Vendedor</a></li>
+            <li><a href="#">Venda na Byzance</a></li>
+            <li>Baixe o App</li>
+            <li>Siga-nos no</li>
+            <li id="icons-facebook-instagram">
+              <a href="https://github.com/TheBrunno/" target="_blank">
+                <img src="images/svg/nav/github-icon.svg">
+              </a>
+              <a href="https://www.instagram.com/bruunooliveeira_/" target="_blank">
+                <img src="images/svg/nav/instagram-icon.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <ul>
+            <li>
+              <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M22 20H2v-2h1v-6.969C3 6.043 7.03 2 12 2s9 4.043 9 9.031V18h1v2zM5 18h14v-6.969C19 7.148 15.866 4 12 4s-7 3.148-7 7.031V18zm4.5 3h5a2.5 2.5 0 1 1-5 0z"/></svg>&nbsp;Notificações</a></li>
+            <li>
+              <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-5-8h2a3 3 0 0 0 6 0h2a5 5 0 0 1-10 0z"/></svg>&nbsp;Ajuda</a></li>
+            <li id="cadastro"><a href="#"><span class="bold">Cadastrar</span></a></li>
+            <li><a href="#"><span class="bold">Entre</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="second-line">
+        <div class="logo">
+          <div class="img-logo">
+            <img src="images/svg/nav/logo.svg">
+          </div>
+          <span class="name-logo">Byzance</span>
+        </div>
+        <div class="search">
+          <input type="text" id="search-camp" placeholder="Pesquise por Produtos, Marcas, Lojas">
+          <a id="search-button"><img src="images/svg/nav/search.svg"></a>
+        </div>
+        <div class="shopping-cart">
+          <img src="images/svg/nav/shopping-cart.svg">
+        </div>
+      </div>
+    </nav>
+    <div class="top-informations">
+      <div class="back">
+        <a href="index.html" target="_self">
+          <img src="images/svg/back.svg">
+          <span>Voltar<span>
+        </a>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Compartilhar</a></li>
+          <li><a href="#">Ver mais</a></li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <section class="big-image"></section>
+      <section class="informations">
+        <div class="information-product"></div>
+        <div class="buy">
+          <input type="button" value="COMPRAR">
+        </div>
+        <div class="more-buy">
+          <div class="add-to-fav">
+            <img src="images/svg/hearth.svg">
+            <span>Adicionar aos favoritos</span>
+          </div>
+          <div class="add-to-shopping-bag">
+            <img src="images/svg/nav/shopping-cart.svg" height="24" width="24">
+            <span>Adicionar à sacola</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="email-offers">
+        <div class="description">
+          <span>Receba nossas ofertas diretamente em seu e-mail</span>
+        </div>
+        <div class="form">
+          <div class="inputs">
+            <input type="text" placeholder="SEU NOME">
+            <input type="text" placeholder="SEU EMAIL">
+          </div>
+          <a class="button" href="#">ENVIAR</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/products/products.js"></script>
+    <script src="js/products/templateProductsHtml.js"></script>
+    <script type="text/javascript">
+      let $ID = localStorage.getItem('ID').split(',')
+    </script>
+    <script src="js/products/createPageOfProduct.js"></script>
+  </body>
+</html>
