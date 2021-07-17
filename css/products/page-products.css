@@ -142,3 +142,11 @@ h1{
 .back img{
   margin: -5px 0;
 }
+article{
+  height: 500px;
+}
+#marked{
+  color: #fff;
+  font-weight: 900;
+  background-color: #a18672;
+}
